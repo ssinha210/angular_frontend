@@ -22,7 +22,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/92099-1080p-harry-potter-wallpaper.png",
+              "src/assets/logo.png"
+
             ],
             "styles": [
               "src/styles.css"
@@ -96,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "06f3025f-4148-440d-90cb-f34ba5be03e2"
   }
 }
