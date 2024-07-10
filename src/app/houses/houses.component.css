@@ -1,0 +1,91 @@
+div.grif{
+  padding: 10px;
+  height: auto;
+  width: 50%;
+  text-align: center;
+  box-shadow: 20px;
+  display: block;
+
+  transition: transform .5s, filter .5s ease-in-out;
+  transform-origin: center center;
+}
+div.grif:hover{
+  filter: brightness(100%);
+  transform: scale(1.07);
+}
+
+div.gryf-hov:hover{
+  background-color: #cf1f18;
+ 
+}
+div.sly-hov:hover{
+  background-color: #03826a;
+
+}
+div.huf-hov:hover{
+  background-color: #cca20b;
+
+}
+div.rav-hov:hover{
+  background-color: #0297bd;
+
+}
+
+
+
+
+div.sly{
+  padding: 10px;
+  height: auto;
+  width: 50%;
+  text-align: center;
+  transition: transform .5s, filter .5s ease-in-out;
+  transform-origin: center center;
+  
+}
+div.sly:hover{
+  transform: scale(1.07);
+}
+
+
+
+div.huf{
+  padding: 10px;
+  height: auto;
+  width: 50%;
+  text-align: center;
+  transition: transform .5s, filter .5s ease-in-out;
+  transform-origin: center center;
+
+}
+div.huf:hover{
+  transform: scale(1.07);
+}
+
+
+
+div.rav{
+  padding: 10px;
+  height: auto;
+  width: 50%;
+  text-align: center;
+  transition: transform .5s, filter .5s ease-in-out;
+  transform-origin: center center;
+}
+div.rav:hover{
+  transform: scale(1.07);
+}
+
+
+
+div.main{
+  padding: 20px;
+  margin-top: 30px;
+background-color: black;}
+
+@media screen and (max-width: 490px) {
+  div.grif, div.sly, div.huf, div.rav{
+    width: 100%;
+    }}
+
+    
